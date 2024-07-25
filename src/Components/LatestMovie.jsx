@@ -12,7 +12,7 @@ const LatestMovie = () => {
     dots: true,
     infinite: false,
     speed: 500,
-    slidesToShow: 5,
+    slidesToShow: 6,
     slidesToScroll: 1,
     initialSlide: 0,
     responsive: [
