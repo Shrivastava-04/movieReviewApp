@@ -76,7 +76,7 @@ const Navbar = () => {
         </div>
       </div>
       {/* mobile view */}
-      <div className="flex md:hidden justify-between items-center px-10 pt-4 pb-3 ">
+      <div className="flex md:hidden justify-between items-center px-8 pt-4 pb-3 gap-2">
         <div className=" px-2 py-1 bg-black rounded-lg">
           <a href="#">
             <img
@@ -96,57 +96,38 @@ const Navbar = () => {
             </button>
             <input
               type="text"
-              className="w-full  py-2  bg-transparent rounded-3xl outline-none"
+              className="w-full  py-2  bg-transparent rounded-3xl outline-none "
               placeholder="Search"
             />
           </form>
         </div>
-        <div>
-          <button className="focus:outline-none " onClick={toggleMobileMenu}>
-            {isMobileMenuOpen ? (
-              <FaTimes className="h-6 w-6" />
-            ) : (
-              <FaBars className="h-6 w-6" />
-            )}
-          </button>
+        <div className="flex items-center justify-center gap-2">
+          <a
+            href="#"
+            className=" bg-gray-800 text-md text-white px-4 py-1 rounded-3xl font-semibold cursor-pointer"
+          >
+            Login
+          </a>
         </div>
-      </div>
-      <div>
-        {isMobileMenuOpen && (
-          <ul className="flex flex-col gap-4">
-            <li className="hover:bg-gray-800 hover:text-white text-lg py-2 px-4">
-              My Account
-            </li>
-            <li className="hover:bg-gray-800 hover:text-white text-lg py-2 px-4">
-              Go Premium
-            </li>
-            <li className="hover:bg-gray-800 hover:text-white text-lg py-2 px-4">
-              Favourites
-            </li>
-            <li className="hover:bg-gray-800 hover:text-white text-lg py-2 px-4">
-              Log Out
-            </li>
-          </ul>
-        )}
       </div>
       <div className="md:hidden">
         <ul className="flex items-center space-x-2 gap-2">
-          <li className="hover:bg-white rounded-3xl hover:text-gray-900  text-lg">
+          <li className="hover:bg-white rounded-3xl hover:text-gray-900 cursor-pointer text-lg">
             <a href="#" className="px-5 py-2">
               Movies
             </a>
           </li>
-          <li className="hover:bg-white rounded-3xl hover:text-gray-900 text-lg">
+          <li className="hover:bg-white rounded-3xl hover:text-gray-900 cursor-pointer text-lg">
             <a href="#" className="px-5 py-2">
               Tv Shows
             </a>
           </li>
-          <li className="hover:bg-white rounded-3xl hover:text-gray-900 text-lg">
+          <li className="hover:bg-white rounded-3xl hover:text-gray-900 cursor-pointer text-lg">
             <a href="#" className="px-5 py-2">
               Series
             </a>
           </li>
-          <li className="hover:bg-white rounded-3xl hover:text-gray-900  text-lg">
+          <li className="hover:bg-white rounded-3xl hover:text-gray-900 cursor-pointer text-lg">
             <a href="#" className="px-5 py-2">
               Anime
             </a>

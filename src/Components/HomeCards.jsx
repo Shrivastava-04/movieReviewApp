@@ -3,6 +3,7 @@ import { FaStar } from "react-icons/fa";
 
 const HomeCards = ({ image, name, year, star, link }) => {
   return (
+    // Desktop View
     <a
       href={link}
       style={{ "--image-url": `url(${image})` }}

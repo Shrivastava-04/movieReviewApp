@@ -19,7 +19,7 @@ const Hero = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true,
           dots: true,
@@ -43,7 +43,7 @@ const Hero = () => {
     ],
   };
   return (
-    <div className="px-10 py-8 min-w-full">
+    <div className="px-6 lg:px-10 md:py-6 lg:py-8 min-w-full">
       <Slider {...settings}>
         {thisData.map((item) => (
           <HeroCards
@@ -52,6 +52,7 @@ const Hero = () => {
             duration={item.duration}
             year={item.year}
             genre={item.genre}
+            link={item.link}
             key={item.id}
           />
         ))}

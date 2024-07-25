@@ -12,44 +12,44 @@ const RightPanel = () => {
   });
   return (
     <>
-      <div className=" bg-gray-700 py-3 text-start">
+      <div className="hidden bg-gray-700 py-3 text-start lg:flex flex-col">
         <h3 className="px-5 mb-2">Genre</h3>
         <div className="flex flex-col items-center gap-6 mb-3">
           <div className="flex px-10 gap-10">
             <div>
               <ul className="flex flex-col gap-3">
-                <li className="hover:bg-white hover:text-black font-semibold text-md bg-slate-900 px-6 py-1 rounded-3xl text-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 duration-300">
+                <li className="hover:bg-white hover:text-black font-semibold text-md bg-slate-900 px-6 py-1 rounded-3xl text-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 duration-300 cursor-pointer">
                   <a href="#">Action</a>
                 </li>
-                <li className="hover:bg-white hover:text-black font-semibold text-md bg-slate-900 px-6 py-1 rounded-3xl text-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 duration-300">
+                <li className="hover:bg-white hover:text-black font-semibold text-md bg-slate-900 px-6 py-1 rounded-3xl text-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 duration-300 cursor-pointer">
                   <a href="#">Comedy</a>
                 </li>
-                <li className="hover:bg-white hover:text-black font-semibold text-md bg-slate-900 px-6 py-1 rounded-3xl text-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 duration-300">
+                <li className="hover:bg-white hover:text-black font-semibold text-md bg-slate-900 px-6 py-1 rounded-3xl text-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 duration-300 cursor-pointer">
                   <a href="#">Thriller</a>
                 </li>
-                <li className="hover:bg-white hover:text-black font-semibold text-md bg-slate-900 px-6 py-1 rounded-3xl text-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 duration-300">
+                <li className="hover:bg-white hover:text-black font-semibold text-md bg-slate-900 px-6 py-1 rounded-3xl text-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 duration-300 cursor-pointer">
                   <a href="#">Drama</a>
                 </li>
-                <li className="hover:bg-white hover:text-black font-semibold text-md bg-slate-900 px-6 py-1 rounded-3xl text-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 duration-300">
+                <li className="hover:bg-white hover:text-black font-semibold text-md bg-slate-900 px-6 py-1 rounded-3xl text-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 duration-300 cursor-pointer">
                   <a href="#">Crime</a>
                 </li>
               </ul>
             </div>
             <div>
               <ul className="flex flex-col gap-3">
-                <li className="hover:bg-white hover:text-black font-semibold text-md bg-slate-900 px-6 py-1 rounded-3xl text-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 duration-300">
+                <li className="hover:bg-white hover:text-black font-semibold text-md bg-slate-900 px-6 py-1 rounded-3xl text-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 duration-300 cursor-pointer">
                   <a href="#">RomCom</a>
                 </li>
-                <li className="hover:bg-white hover:text-black font-semibold text-md bg-slate-900 px-6 py-1 rounded-3xl text-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 duration-300">
+                <li className="hover:bg-white hover:text-black font-semibold text-md bg-slate-900 px-6 py-1 rounded-3xl text-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 duration-300 cursor-pointer">
                   <a href="#">Si-Fi</a>
                 </li>
-                <li className="hover:bg-white hover:text-black font-semibold text-md bg-slate-900 px-6 py-1 rounded-3xl text-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 duration-300">
+                <li className="hover:bg-white hover:text-black font-semibold text-md bg-slate-900 px-6 py-1 rounded-3xl text-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 duration-300 cursor-pointer">
                   <a href="#">Fantasy</a>
                 </li>
-                <li className="hover:bg-white hover:text-black font-semibold text-md bg-slate-900 px-6 py-1 rounded-3xl text-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 duration-300">
+                <li className="hover:bg-white hover:text-black font-semibold text-md bg-slate-900 px-6 py-1 rounded-3xl text-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 duration-300 cursor-pointer">
                   <a href="#">Biography</a>
                 </li>
-                <li className="hover:bg-white hover:text-black font-semibold text-md bg-slate-900 px-6 py-1 rounded-3xl text-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 duration-300">
+                <li className="hover:bg-white hover:text-black font-semibold text-md bg-slate-900 px-6 py-1 rounded-3xl text-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 duration-300 cursor-pointer">
                   <a href="#">History</a>
                 </li>
               </ul>

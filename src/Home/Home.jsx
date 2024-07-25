@@ -10,11 +10,11 @@ const Home = () => {
   return (
     <div className="">
       <Navbar />
-      <div className="flex flex-between sticky">
-        <div className="sticky mt-16 pt-2 w-fit h-auto">
+      <div className="flex flex-between">
+        <div className="sticky mt-16 pt-2 w-fit h-auto hidden lg:flex">
           <RightPanel />
         </div>
-        <div className=" overflow-y-hidden overflow-x-auto md:max-w-screen-md lg:max-w-[1200px] mt-14 flex flex-col px-2 gap-5">
+        <div className="overflow-y-hidden overflow-x-auto md:max-w-screen-md lg:max-w-[1200px] mt-14 flex flex-col lg:px-2 gap-5">
           <Hero />
           <Recommanded />
           <LatestMovie />
