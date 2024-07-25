@@ -4,7 +4,7 @@ import data from "../../public/data.json";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-const Recommanded = () => {
+const LatestMovie = () => {
   const thisData = data.filter((item) => {
     return item.place === "recommand";
   });
@@ -44,7 +44,7 @@ const Recommanded = () => {
   };
   return (
     <div className="px-10 py-2 min-w-full">
-      <h2 className="text-xl font-semibold tracking-wide">Recommend</h2>
+      <h2 className="text-xl font-semibold tracking-wide">Latest Movie</h2>
       <div className="">
         <Slider {...settings}>
           {thisData.map((item, index) => (
@@ -63,4 +63,4 @@ const Recommanded = () => {
   );
 };
 
-export default Recommanded;
+export default LatestMovie;

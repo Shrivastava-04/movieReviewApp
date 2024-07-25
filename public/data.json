@@ -7,6 +7,7 @@
         "star":"6.4",
         "img":"/public/imagesAssets/dune.png",
         "link":"#",
+        "place":"heroImage",
         "duration":"2h 35m"
     },
     {
@@ -17,6 +18,7 @@
         "star":"6.4",
         "img":"/public/imagesAssets/jhonWick.jpg",
         "link":"#",
+        "place":"heroImage",
         "duration":"2h 35m"
     },
     {
@@ -27,16 +29,183 @@
         "star":"6.4",
         "img":"/public/imagesAssets/jhonWick.jpg",
         "link":"#",
+        "place":"heroImage",
         "duration":"2h 35m"
     },
     {
         "id":"4",
+        "name":"Dune",
+        "year":"2023",
+        "genre":"Action",
+        "star":"6.4",
+        "img":"/public/imagesAssets/dune.png",
+        "link":"#",
+        "place":"heroImage",
+        "duration":"2h 35m"
+    },
+    {
+        "id":"5",
         "name":"Jhon Wick",
         "year":"2023",
         "genre":"Action",
         "star":"6.4",
         "img":"/public/imagesAssets/jhonWick.jpg",
         "link":"#",
+        "place":"heroImage",
+        "duration":"2h 35m"
+    },
+    {
+        "id":"6",
+        "name":"Dune",
+        "year":"2023",
+        "genre":"Action",
+        "star":"6.4",
+        "img":"/public/imagesAssets/dune.png",
+        "link":"#",
+        "place":"rightSection",
+        "duration":"2h 35m"
+    },
+    {
+        "id":"7",
+        "name":"Jhon Wick",
+        "year":"2023",
+        "genre":"Action",
+        "star":"6.4",
+        "img":"/public/imagesAssets/jhonWick.jpg",
+        "link":"#",
+        "place":"rightSection",
+        "duration":"2h 35m"
+    },
+    {
+        "id":"8",
+        "name":"Jhon Wick",
+        "year":"2023",
+        "genre":"Action",
+        "star":"6.4",
+        "img":"/public/imagesAssets/jhonWick.jpg",
+        "link":"#",
+        "place":"rightSection",
+        "duration":"2h 35m"
+    },
+    {
+        "id":"9",
+        "name":"Jhon Wick",
+        "year":"2023",
+        "genre":"Action",
+        "star":"6.4",
+        "img":"/public/imagesAssets/jhonWick.jpg",
+        "link":"#",
+        "place":"rightSection",
+        "duration":"2h 35m"
+    },
+    {
+        "id":"10",
+        "name":"Dune",
+        "year":"2023",
+        "genre":"Action",
+        "star":"6.4",
+        "img":"/public/imagesAssets/dune.png",
+        "link":"#",
+        "place":"recommand",
+        "duration":"2h 35m"
+    },
+    {
+        "id":"11",
+        "name":"Jhon Wick",
+        "year":"2023",
+        "genre":"Action",
+        "star":"6.4",
+        "img":"/public/imagesAssets/jhonWick.jpg",
+        "link":"#",
+        "place":"recommand",
+        "duration":"2h 35m"
+    },
+    {
+        "id":"12",
+        "name":"Jhon Wick",
+        "year":"2023",
+        "genre":"Action",
+        "star":"6.4",
+        "img":"/public/imagesAssets/jhonWick.jpg",
+        "link":"#",
+        "place":"recommand",
+        "duration":"2h 35m"
+    },
+    {
+        "id":"13",
+        "name":"Jhon Wick",
+        "year":"2023",
+        "genre":"Action",
+        "star":"6.4",
+        "img":"/public/imagesAssets/jhonWick.jpg",
+        "link":"#",
+        "place":"recommand",
+        "duration":"2h 35m"
+    },
+    {
+        "id":"14",
+        "name":"Jhon Wick",
+        "year":"2023",
+        "genre":"Action",
+        "star":"6.4",
+        "img":"/public/imagesAssets/jhonWick.jpg",
+        "link":"#",
+        "place":"recommand",
+        "duration":"2h 35m"
+    },
+    {
+        "id":"15",
+        "name":"Jhon Wick",
+        "year":"2023",
+        "genre":"Action",
+        "star":"6.4",
+        "img":"/public/imagesAssets/jhonWick.jpg",
+        "link":"#",
+        "place":"recommand",
+        "duration":"2h 35m"
+    },
+    {
+        "id":"16",
+        "name":"Jhon Wick",
+        "year":"2023",
+        "genre":"Action",
+        "star":"6.4",
+        "img":"/public/imagesAssets/jhonWick.jpg",
+        "link":"#",
+        "place":"recommand",
+        "duration":"2h 35m"
+    },
+    {
+        "id":"17",
+        "name":"Jhon Wick",
+        "year":"2023",
+        "genre":"Action",
+        "star":"6.4",
+        "img":"/public/imagesAssets/jhonWick.jpg",
+        "link":"#",
+        "place":"recommand",
+        "duration":"2h 35m"
+    },
+    {
+        "id":"18",
+        "name":"Jhon Wick",
+        "year":"2023",
+        "genre":"Action",
+        "star":"6.4",
+        "img":"/public/imagesAssets/jhonWick.jpg",
+        "link":"#",
+        "place":"recommand",
+        "duration":"2h 35m"
+    },
+    {
+        "id":"19",
+        "name":"Jhon Wick",
+        "year":"2023",
+        "genre":"Action",
+        "star":"6.4",
+        "img":"/public/imagesAssets/jhonWick.jpg",
+        "link":"#",
+        "place":"recommand",
         "duration":"2h 35m"
     }   
 ]

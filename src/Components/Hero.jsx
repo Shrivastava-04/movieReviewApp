@@ -5,13 +5,16 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 const Hero = () => {
+  const thisData = data.filter((item) => {
+    return item.place === "heroImage";
+  });
   var settings = {
     dots: true,
     infinite: false,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    initialSlide: 0,
+    initialSlide: 2,
     responsive: [
       {
         breakpoint: 1024,
@@ -41,8 +44,8 @@ const Hero = () => {
   };
   return (
     <div className="px-10 py-8 min-w-full">
-      <Slider {...settings} className="">
-        {data.map((item) => (
+      <Slider {...settings}>
+        {thisData.map((item) => (
           <HeroCards
             name={item.name}
             image={item.img}
