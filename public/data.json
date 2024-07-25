@@ -1,0 +1,42 @@
+[
+    {
+        "id":"1",
+        "name":"Dune",
+        "year":"2023",
+        "genre":"Action",
+        "star":"6.4",
+        "img":"/public/imagesAssets/dune.png",
+        "link":"#",
+        "duration":"2h 35m"
+    },
+    {
+        "id":"2",
+        "name":"Jhon Wick",
+        "year":"2023",
+        "genre":"Action",
+        "star":"6.4",
+        "img":"/public/imagesAssets/jhonWick.jpg",
+        "link":"#",
+        "duration":"2h 35m"
+    },
+    {
+        "id":"3",
+        "name":"Jhon Wick",
+        "year":"2023",
+        "genre":"Action",
+        "star":"6.4",
+        "img":"/public/imagesAssets/jhonWick.jpg",
+        "link":"#",
+        "duration":"2h 35m"
+    },
+    {
+        "id":"4",
+        "name":"Jhon Wick",
+        "year":"2023",
+        "genre":"Action",
+        "star":"6.4",
+        "img":"/public/imagesAssets/jhonWick.jpg",
+        "link":"#",
+        "duration":"2h 35m"
+    }   
+]
