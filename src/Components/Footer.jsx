@@ -35,7 +35,7 @@ const Footer = () => {
       </div>
       <div className="flex justify-evenly items-center min-w-fit gap-2 lg:gap-6 ">
         <a
-          href="#"
+          href="/"
           className="lg:transition lg:ease-in-out lg:delay-150 lg:hover:-translate-y-1 lg:hover:scale-125 lg:duration-300 lg:hover:bg-white rounded-3xl lg:hover:text-gray-900 bg-black/20 backdrop-blur-lg font-semibold text-md px-3 py-1"
         >
           Home

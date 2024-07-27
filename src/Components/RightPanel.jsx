@@ -19,38 +19,118 @@ const RightPanel = () => {
             <div>
               <ul className="flex flex-col gap-3">
                 <li className="hover:bg-white hover:text-black font-semibold text-md bg-slate-900 px-6 py-1 rounded-3xl text-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 duration-300 cursor-pointer">
-                  <a href="#">Action</a>
+                  <a
+                    href="/genrepage"
+                    onClick={() => {
+                      localStorage.removeItem("genre");
+                      localStorage.setItem("genre", "Action");
+                    }}
+                  >
+                    Action
+                  </a>
                 </li>
                 <li className="hover:bg-white hover:text-black font-semibold text-md bg-slate-900 px-6 py-1 rounded-3xl text-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 duration-300 cursor-pointer">
-                  <a href="#">Comedy</a>
+                  <a
+                    href="/genrepage"
+                    onClick={() => {
+                      localStorage.removeItem("genre");
+                      localStorage.setItem("genre", "Comedy");
+                    }}
+                  >
+                    Comedy
+                  </a>
                 </li>
                 <li className="hover:bg-white hover:text-black font-semibold text-md bg-slate-900 px-6 py-1 rounded-3xl text-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 duration-300 cursor-pointer">
-                  <a href="#">Thriller</a>
+                  <a
+                    href="/genrepage"
+                    onClick={() => {
+                      localStorage.removeItem("genre");
+                      localStorage.setItem("genre", "Thriller");
+                    }}
+                  >
+                    Thriller
+                  </a>
                 </li>
                 <li className="hover:bg-white hover:text-black font-semibold text-md bg-slate-900 px-6 py-1 rounded-3xl text-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 duration-300 cursor-pointer">
-                  <a href="#">Drama</a>
+                  <a
+                    href="/genrepage"
+                    onClick={() => {
+                      localStorage.removeItem("genre");
+                      localStorage.setItem("genre", "Drama");
+                    }}
+                  >
+                    Drama
+                  </a>
                 </li>
                 <li className="hover:bg-white hover:text-black font-semibold text-md bg-slate-900 px-6 py-1 rounded-3xl text-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 duration-300 cursor-pointer">
-                  <a href="#">Crime</a>
+                  <a
+                    href="/genrepage"
+                    onClick={() => {
+                      localStorage.removeItem("genre");
+                      localStorage.setItem("genre", "Crime");
+                    }}
+                  >
+                    Crime
+                  </a>
                 </li>
               </ul>
             </div>
             <div>
               <ul className="flex flex-col gap-3">
                 <li className="hover:bg-white hover:text-black font-semibold text-md bg-slate-900 px-6 py-1 rounded-3xl text-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 duration-300 cursor-pointer">
-                  <a href="#">RomCom</a>
+                  <a
+                    href="/genrepage"
+                    onClick={() => {
+                      localStorage.removeItem("genre");
+                      localStorage.setItem("genre", "Rom Com");
+                    }}
+                  >
+                    RomCom
+                  </a>
                 </li>
                 <li className="hover:bg-white hover:text-black font-semibold text-md bg-slate-900 px-6 py-1 rounded-3xl text-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 duration-300 cursor-pointer">
-                  <a href="#">Si-Fi</a>
+                  <a
+                    href="/genrepage"
+                    onClick={() => {
+                      localStorage.removeItem("genre");
+                      localStorage.setItem("genre", "Si-Fi");
+                    }}
+                  >
+                    Si-Fi
+                  </a>
                 </li>
                 <li className="hover:bg-white hover:text-black font-semibold text-md bg-slate-900 px-6 py-1 rounded-3xl text-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 duration-300 cursor-pointer">
-                  <a href="#">Fantasy</a>
+                  <a
+                    href="/genrepage"
+                    onClick={() => {
+                      localStorage.removeItem("genre");
+                      localStorage.setItem("genre", "Fantasy");
+                    }}
+                  >
+                    Fantasy
+                  </a>
                 </li>
                 <li className="hover:bg-white hover:text-black font-semibold text-md bg-slate-900 px-6 py-1 rounded-3xl text-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 duration-300 cursor-pointer">
-                  <a href="#">Biography</a>
+                  <a
+                    href="/genrepage"
+                    onClick={() => {
+                      localStorage.removeItem("genre");
+                      localStorage.setItem("genre", "Biography");
+                    }}
+                  >
+                    Biography
+                  </a>
                 </li>
                 <li className="hover:bg-white hover:text-black font-semibold text-md bg-slate-900 px-6 py-1 rounded-3xl text-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 duration-300 cursor-pointer">
-                  <a href="#">History</a>
+                  <a
+                    href="/genrepage"
+                    onClick={() => {
+                      localStorage.removeItem("genre");
+                      localStorage.setItem("genre", "History");
+                    }}
+                  >
+                    History
+                  </a>
                 </li>
               </ul>
             </div>
@@ -60,15 +140,7 @@ const RightPanel = () => {
           <h3 className="mb-3">Top Rated</h3>
           <div className="flex flex-col gap-1">
             {thisData.map((item, index) => (
-              <RightPanelCards
-                key={index}
-                image={item.img}
-                name={item.name}
-                year={item.year}
-                genre={item.genre}
-                star={item.star}
-                link={item.link}
-              />
+              <RightPanelCards key={index} item={item} />
             ))}
           </div>
         </div>

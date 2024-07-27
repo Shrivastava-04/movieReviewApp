@@ -33,7 +33,7 @@ const Signup = () => {
         </form>
         <div className="flex gap-2">
           <p>Already user</p>
-          <a href="#" className="text-blue-500 underline">
+          <a href="/login" className="text-blue-500 underline">
             Login
           </a>
         </div>

@@ -8,7 +8,7 @@
         "img":"/public/imagesAssets/dune.png",
         "link":"#",
         "place":"heroImage",
-        "duration":"2h 35m"
+        "type":"Series"
     },
     {
         "id":"2",
@@ -19,7 +19,8 @@
         "img":"/public/imagesAssets/jhonWick.jpg",
         "link":"#",
         "place":"heroImage",
-        "duration":"2h 35m"
+        "duration":"2h 35m",
+        "type":"Series"
     },
     {
         "id":"3",
@@ -30,7 +31,8 @@
         "img":"/public/imagesAssets/jhonWick.jpg",
         "link":"#",
         "place":"heroImage",
-        "duration":"2h 35m"
+        "duration":"2h 35m",
+        "type":"Series"
     },
     {
         "id":"4",
@@ -41,7 +43,8 @@
         "img":"/public/imagesAssets/dune.png",
         "link":"#",
         "place":"heroImage",
-        "duration":"2h 35m"
+        "duration":"2h 35m",
+        "type":"Series"
     },
     {
         "id":"5",
@@ -52,7 +55,8 @@
         "img":"/public/imagesAssets/jhonWick.jpg",
         "link":"#",
         "place":"heroImage",
-        "duration":"2h 35m"
+        "duration":"2h 35m",
+        "type":"Movie"
     },
     {
         "id":"6",
@@ -63,7 +67,8 @@
         "img":"/public/imagesAssets/dune.png",
         "link":"#",
         "place":"rightSection",
-        "duration":"2h 35m"
+        "duration":"2h 35m",
+        "type":"Movie"
     },
     {
         "id":"7",
@@ -74,7 +79,8 @@
         "img":"/public/imagesAssets/jhonWick.jpg",
         "link":"#",
         "place":"rightSection",
-        "duration":"2h 35m"
+        "duration":"2h 35m",
+        "type":"Movie"
     },
     {
         "id":"8",
@@ -85,7 +91,8 @@
         "img":"/public/imagesAssets/jhonWick.jpg",
         "link":"#",
         "place":"rightSection",
-        "duration":"2h 35m"
+        "duration":"2h 35m",
+        "type":"Movie"
     },
     {
         "id":"9",
@@ -96,7 +103,8 @@
         "img":"/public/imagesAssets/jhonWick.jpg",
         "link":"#",
         "place":"rightSection",
-        "duration":"2h 35m"
+        "duration":"2h 35m",
+        "type":"Movie"
     },
     {
         "id":"10",
@@ -107,7 +115,8 @@
         "img":"/public/imagesAssets/dune.png",
         "link":"#",
         "place":"recommand",
-        "duration":"2h 35m"
+        "duration":"2h 35m",
+        "type":"Tv Show"
     },
     {
         "id":"11",
@@ -118,7 +127,8 @@
         "img":"/public/imagesAssets/jhonWick.jpg",
         "link":"#",
         "place":"recommand",
-        "duration":"2h 35m"
+        "duration":"2h 35m",
+        "type":"Tv Show"
     },
     {
         "id":"12",
@@ -129,7 +139,8 @@
         "img":"/public/imagesAssets/jhonWick.jpg",
         "link":"#",
         "place":"recommand",
-        "duration":"2h 35m"
+        "duration":"2h 35m",
+        "type":"Tv Show"
     },
     {
         "id":"13",
@@ -140,7 +151,8 @@
         "img":"/public/imagesAssets/jhonWick.jpg",
         "link":"#",
         "place":"recommand",
-        "duration":"2h 35m"
+        "duration":"2h 35m",
+        "type":"Tv Show"
     },
     {
         "id":"14",
@@ -151,7 +163,8 @@
         "img":"/public/imagesAssets/jhonWick.jpg",
         "link":"#",
         "place":"recommand",
-        "duration":"2h 35m"
+        "duration":"2h 35m",
+        "type":"Tv Show"
     },
     {
         "id":"15",
@@ -162,7 +175,8 @@
         "img":"/public/imagesAssets/jhonWick.jpg",
         "link":"#",
         "place":"recommand",
-        "duration":"2h 35m"
+        "duration":"2h 35m",
+        "type":"Anime"
     },
     {
         "id":"16",
@@ -173,7 +187,8 @@
         "img":"/public/imagesAssets/jhonWick.jpg",
         "link":"#",
         "place":"recommand",
-        "duration":"2h 35m"
+        "duration":"2h 35m",
+        "type":"Anime"
     },
     {
         "id":"17",
@@ -184,7 +199,8 @@
         "img":"/public/imagesAssets/jhonWick.jpg",
         "link":"#",
         "place":"recommand",
-        "duration":"2h 35m"
+        "duration":"2h 35m",
+        "type":"Anime"
     },
     {
         "id":"18",
@@ -195,7 +211,8 @@
         "img":"/public/imagesAssets/jhonWick.jpg",
         "link":"#",
         "place":"recommand",
-        "duration":"2h 35m"
+        "duration":"2h 35m",
+        "type":"Anime"
     },
     {
         "id":"19",
@@ -206,6 +223,7 @@
         "img":"/public/imagesAssets/jhonWick.jpg",
         "link":"#",
         "place":"recommand",
-        "duration":"2h 35m"
+        "duration":"2h 35m",
+        "type":"Anime"
     }   
 ]

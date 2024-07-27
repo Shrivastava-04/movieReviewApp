@@ -1,11 +1,16 @@
 import React from "react";
 import { FaStar } from "react-icons/fa";
+// import MoviePage from "./MoviePage.jsx";
 
 const HomeCards = ({ item }) => {
   return (
     // Desktop View
     <a
-      href="#"
+      onClick={() => {
+        if (localStorage.getItem("id")) localStorage.removeItem("id");
+        localStorage.setItem("id", item.id);
+      }}
+      href="/moviepage"
       style={{ "--image-url": `url(${item.img})` }}
       className="bg-[image:var(--image-url)] bg-cover bg-top w-36 h-44 mx-4 my-4 rounded-3xl flex items-end transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
     >

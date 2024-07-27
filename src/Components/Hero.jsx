@@ -8,6 +8,7 @@ const Hero = () => {
   const thisData = data.filter((item) => {
     return item.place === "heroImage";
   });
+
   var settings = {
     dots: true,
     infinite: false,

@@ -1,11 +1,14 @@
 import React from "react";
-import MoviePage from "./MoviePage.jsx";
 
 const HeroCards = ({ item }) => {
   return (
     <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300 p-5 md:p-8 lg:p-10">
       <a
-        href="#"
+        onClick={() => {
+          if (localStorage.getItem("id")) localStorage.removeItem("id");
+          localStorage.setItem("id", item.id);
+        }}
+        href="/moviepage"
         style={{ "--image-url": `url(${item.img})` }}
         className="bg-[image:var(--image-url)] bg-cover bg-top min-w-full h-96 rounded-[32px] flex items-end  "
       >

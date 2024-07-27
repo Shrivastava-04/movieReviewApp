@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "./Navbar";
 
 const Login = () => {
   return (
@@ -27,7 +28,7 @@ const Login = () => {
         </form>
         <div className="flex gap-2">
           <p>New user</p>
-          <a href="#" className="text-blue-500 underline">
+          <a href="/signup" className="text-blue-500 underline">
             Sign Up
           </a>
         </div>
