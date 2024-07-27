@@ -14,7 +14,7 @@ const Recommanded = () => {
     speed: 500,
     slidesToShow: 6,
     slidesToScroll: 1,
-    initialSlide: 0,
+    initialSlide: 2,
     responsive: [
       {
         breakpoint: 1024,
@@ -48,14 +48,7 @@ const Recommanded = () => {
       <div className="">
         <Slider {...settings}>
           {thisData.map((item, index) => (
-            <HomeCards
-              key={index}
-              image={item.img}
-              name={item.name}
-              year={item.year}
-              star={item.star}
-              link={item.link}
-            />
+            <HomeCards key={index} item={item} />
           ))}
         </Slider>
       </div>

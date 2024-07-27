@@ -14,7 +14,7 @@ const LatestMovie = () => {
     speed: 500,
     slidesToShow: 6,
     slidesToScroll: 1,
-    initialSlide: 0,
+    initialSlide: 2,
     responsive: [
       {
         breakpoint: 1024,
@@ -43,19 +43,12 @@ const LatestMovie = () => {
     ],
   };
   return (
-    <div className="px-10 py-2 min-w-full">
+    <div className="px-10 py-6 min-w-full">
       <h2 className="text-xl font-semibold tracking-wide">Latest Movie</h2>
       <div className="">
         <Slider {...settings}>
           {thisData.map((item, index) => (
-            <HomeCards
-              key={index}
-              image={item.img}
-              name={item.name}
-              year={item.year}
-              star={item.star}
-              link={item.link}
-            />
+            <HomeCards key={index} item={item} />
           ))}
         </Slider>
       </div>

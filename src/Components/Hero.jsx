@@ -46,15 +46,7 @@ const Hero = () => {
     <div className="px-6 lg:px-10 md:py-6 lg:py-8 min-w-full">
       <Slider {...settings}>
         {thisData.map((item) => (
-          <HeroCards
-            name={item.name}
-            image={item.img}
-            duration={item.duration}
-            year={item.year}
-            genre={item.genre}
-            link={item.link}
-            key={item.id}
-          />
+          <HeroCards item={item} key={item.id} />
         ))}
       </Slider>
     </div>
